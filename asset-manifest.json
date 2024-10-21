@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/incubator-hw2sprint/static/css/main.4347752f.css",
-    "main.js": "/incubator-hw2sprint/static/js/main.0b10bdb9.js",
+    "main.css": "/incubator-hw2sprint/static/css/main.4583aeaf.css",
+    "main.js": "/incubator-hw2sprint/static/js/main.af554c61.js",
     "static/js/787.66cb4309.chunk.js": "/incubator-hw2sprint/static/js/787.66cb4309.chunk.js",
-    "static/media/Arcane-Jinx.png": "/incubator-hw2sprint/static/media/Arcane-Jinx.869367154a20e4922931.png",
-    "static/media/Arcane-Vi.png": "/incubator-hw2sprint/static/media/Arcane-Vi.f8a158f7d137c3702a84.png",
     "index.html": "/incubator-hw2sprint/index.html",
-    "main.4347752f.css.map": "/incubator-hw2sprint/static/css/main.4347752f.css.map",
-    "main.0b10bdb9.js.map": "/incubator-hw2sprint/static/js/main.0b10bdb9.js.map",
+    "main.4583aeaf.css.map": "/incubator-hw2sprint/static/css/main.4583aeaf.css.map",
+    "main.af554c61.js.map": "/incubator-hw2sprint/static/js/main.af554c61.js.map",
     "787.66cb4309.chunk.js.map": "/incubator-hw2sprint/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4347752f.css",
-    "static/js/main.0b10bdb9.js"
+    "static/css/main.4583aeaf.css",
+    "static/js/main.af554c61.js"
   ]
 }
