@@ -1,36 +1,26 @@
-.button {
-}
+.button {}
 
-.disabled {
-}
+.disabled {}
 
-.secondary {
-}
+.secondary {}
 
-.default {
-}
+.default {}
 
 .red {
+    background: red;
 }
 
-.default:hover {
-}
+.default:hover {}
 
-.red:hover {
-}
+.red:hover {}
 
-.secondary:hover {
-}
+.secondary:hover {}
 
 
-.default:active {
-}
+.default:active {}
 
-.secondary:active {
-}
+.secondary:active {}
 
-.red:active {
-}
+.red:active {}
 
-.button:disabled {
-}
+.button:disabled {}

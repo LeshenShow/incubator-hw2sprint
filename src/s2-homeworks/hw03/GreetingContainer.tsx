@@ -38,7 +38,6 @@ export const pureOnEnter = (
   addUser: any
 ) => {
   // если нажата кнопка Enter - добавить
-  console.log(e);
   if (e.key === "Enter") {
     addUser();
   }
