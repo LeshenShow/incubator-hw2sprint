@@ -14,32 +14,14 @@ export const homeWorkReducer = (
     case "sort": {
       const way = action.payload;
       if (way === "up") {
-        state = state.sort((a, b) => {
-          const nameA = a.name.toUpperCase();
-          const nameB = b.name.toUpperCase();
-          if (nameA < nameB) {
-            return -1;
-          }
-          if (nameA > nameB) {
-            return 1;
-          }
-          return 0;
-        });
+        return [...state].sort((a, b) => a.name.localeCompare(b.name));
       }
       if (way === "down") {
-        state = state.sort((a, b) => {
-          const nameA = a.name.toUpperCase();
-          const nameB = b.name.toUpperCase();
-          if (nameA > nameB) {
-            return -1;
-          }
-          if (nameA < nameB) {
-            return 1;
-          }
-          return 0;
-        });
+        return [...state]
+          .sort((a, b) => a.name.localeCompare(b.name))
+          .reverse();
       }
-      return state; // need to fix
+      return state;
     }
     case "check": {
       return state.filter((user) => {
