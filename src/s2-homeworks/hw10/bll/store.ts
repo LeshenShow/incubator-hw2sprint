@@ -7,7 +7,7 @@ const reducers = combineReducers({
     theme: themeReducer, // hw12
 })
 
-const store = legacy_createStore(reducers)
+const store = legacy_createStore(reducers);
 
 export default store
 
