@@ -17,7 +17,6 @@ const HW10 = () => {
   // useSelector, useDispatch // пишет студент
   const dispatch = useDispatch();
   const select = useSelector<AppStoreType>(store => store.loading.isLoading);
-  const isLoading = select;
   const setLoading = () => {
     // пишет студент // показать крутилку на 1,5 секунд
     // dispatch
@@ -35,7 +34,7 @@ const HW10 = () => {
       <div className={s2.hwTitle}>Homework #10</div>
 
       <div className={s2.hw}>
-        {isLoading ? (
+        {select ? (
           <div id={"hw10-loading"}>
             <Loader />
           </div>

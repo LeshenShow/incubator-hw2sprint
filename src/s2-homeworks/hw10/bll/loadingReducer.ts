@@ -24,5 +24,5 @@ type LoadingActionType = {
 };
 export type State = {
   isLoading: boolean;
-  theme?: { themeId: number };
+  // theme?: { themeId: number };
 };
